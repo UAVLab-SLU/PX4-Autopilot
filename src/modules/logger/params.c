@@ -219,3 +219,14 @@ PARAM_DEFINE_INT32(SDLOG_KEY, 2);
  * @group SD Logging
  */
 PARAM_DEFINE_INT32(SDLOG_EXCH_KEY, 1);
+
+/**
+ * Maximum number of log files
+ *
+ * Defines the maximum number of log files that will be logged under a single session directory.
+ *
+ * @min 1
+ * @max 999
+ * @group SD Logging
+ */
+PARAM_DEFINE_INT32(SDLOG_LOG_MAX, 999);
