@@ -1363,9 +1363,6 @@ int Logger::get_log_file_name(LogType type, char *file_name, size_t file_name_si
 			}
 
 			file_number++;
-			if (file_number == _param_sdlog_log_max.get()) {
-				px4_reboot_request(false, 0);
-			}
 		}
 
 		if (file_number > MAX_NO_LOGFILE) {

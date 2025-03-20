@@ -396,7 +396,6 @@ private:
 		(ParamInt<px4::params::SDLOG_DIRS_MAX>) _param_sdlog_dirs_max,
 		(ParamInt<px4::params::SDLOG_PROFILE>) _param_sdlog_profile,
 		(ParamInt<px4::params::SDLOG_MISSION>) _param_sdlog_mission,
-		(ParamInt<px4::params::SDLOG_MAX_LOG>) _param_sdlog_log_max,
 		(ParamBool<px4::params::SDLOG_BOOT_BAT>) _param_sdlog_boot_bat,
 		(ParamBool<px4::params::SDLOG_UUID>) _param_sdlog_uuid
 #if defined(PX4_CRYPTO)
